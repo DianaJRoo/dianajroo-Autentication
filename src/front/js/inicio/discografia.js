@@ -27,11 +27,11 @@ export const Discografia = () => {
                     </div>
                     <ul className="list-group list-group-flush">
                         <li className="list-group-item bg-white text-center">
-                            <button type="button" class="rounded-md bg-pink-900 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-pink-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+                            <Link to="/lover" type="button" class="rounded-md bg-pink-900 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-pink-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
 
                                 Lista de Canciones
 
-                            </button>
+                            </Link>
                         </li>
 
 
