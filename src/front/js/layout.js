@@ -5,6 +5,8 @@ import { BackendURL } from "./component/backendURL";
 
 import { Home } from "./pages/home";
 import { Discografia } from "./inicio/discografia";
+import { Videos } from "./inicio/videos";
+
 import { Single } from "./pages/single";
 import injectContext from "./store/appContext";
 
@@ -30,6 +32,8 @@ const Layout = () => {
                 <Navbar/>
                     <Routes>
                         <Route element={<Home />} path="/" />
+                        <Route element={<Videos />} path="/videos" />
+
                         <Route element={<Discografia />} path="/discografia" />
                         <Route element={<LogIn />} path="/login" />
                         <Route element={<Private />} path="/private" />

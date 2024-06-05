@@ -11,28 +11,48 @@ export const Discografia = () => {
 
 
     return <>
-      
-      <div id='hero-body' className="flex justify-center items-center mt-0 mb-0 " style={{backgroundImage: 'url("https://roastbrief.us/wp-content/uploads/2024/04/taylornuevo-wecompress.com_.png")', backgroundSize: 'cover', backgroundPosition: 'center', height: '70vh'}}>
-            
-            <div id='hero' className='d-flex flex-column'  >
-                <h1 className='text-5xl text-gray-500 font-bold text-center'>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/q3zqJs7JUCQ?si=UbBIQn7Sthxl6LcM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </h1>
-                
-            </div>
-        </div>
-       
-        <div className='border-y-4 flex justify-center items-center py-4 gap-6 shadow'>
-                <div onClick={() => actions.logOut()} className='flex items-center gap-2 cursor-pointer'>
-                    <img src='https://numero.twic.pics/2024-03/taylor-swift-album-numero-magazine1.jpg?twic=v1/quality=83/truecolor=true/output=jpeg' className='flag h-10 w-10 bg-orange-300 rounded-full top-1 start-1' />
-                    <p className="font-bold text-xl">Salir</p>
+
+        <div id='disco-body' className="flex justify-center items-center mt-0 mb-0 " >
+
+            <div id='hero' className=' d-flex flex-column mx-auto px-4 md:px-8 lg:px-16 xl:px-20 py-20 p-20 w-full sm:w-1/3'  >
+                <div className="card bg-white border border-gray-200 rounded-lg overflow-hidden mt-3 mb-3 transform hover:scale-110 transition-transform duration-300 ease-in-out" style={{ width: '15rem',   }}>
+                    <img src="https://i.scdn.co/image/ab67616d00001e02e787cffec20aa2a396a61647" className="card-img-top" alt="..." />
+                    <div className="card-body">
+                        <h5 className="card-title text-m font-bold text-center">Lover</h5>
+                        <p className="card-text text-gray-700 text-sm">
+                            <strong>Publicación:</strong> 	23 de agosto de 2019 <br />
+                            <strong>Género(s):</strong>	Pop, pop rock, electropop y synth pop <br />
+                            <strong>Productor(es):</strong> Taylor Swift, Joel Little, Jack Antonoff, Frank Dukes y Louis Bell​</p>
+
+                    </div>
+                    <ul className="list-group list-group-flush">
+                        <li className="list-group-item bg-white text-center">
+                            <button type="button" class="rounded-md bg-pink-900 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-pink-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+
+                                Lista de Canciones
+
+                            </button>
+                        </li>
+
+
+                    </ul>
+
                 </div>
-             
-            </div >
+
+
+            </div>
 
 
 
 
-    
+
+        </div>
+
+
+
+
+
+
+
     </>
 }
