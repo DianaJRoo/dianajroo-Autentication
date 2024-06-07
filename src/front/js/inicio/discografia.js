@@ -18,9 +18,12 @@ export const Discografia = () => {
             <Card
                 image="https://upload.wikimedia.org/wikipedia/en/1/1f/Taylor_Swift_-_Taylor_Swift.png"
                 title="Taylor Swift"
-                description1="Publicación: 24 de octubre de 2006."
-                description2="Género: Country, pop rock."
-                description3="Productores: Nathan Chapman, Robert Ellis Orrall."
+                description1= "Publicación: "
+                description2= "24 de octubre de 2006."
+                description3= "Género: " 
+                description4= "Country, pop rock."
+                description5= "Productores: "
+                description6= "Nathan Chapman, Robert Ellis Orrall."
                 buttonLink="https://www.example.com/1"
             />
             <Card

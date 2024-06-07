@@ -10,9 +10,12 @@ const Card = (props) => {
             <div className=" w-full px-6 py-4 flex-1">
                 <div className="font-bold text-l mb-2 text-center w-full">{props.title}</div>
                 <p className="text-gray-700 text-base flex-1">
-                    {props.description1}<br/>
+                <strong> {props.description1}</strong>
                     {props.description2}<br/>
-                    {props.description3}
+                    <strong>{props.description3}</strong>
+                    {props.description4}<br/>
+                  <strong> {props.description5} </strong> 
+                    {props.description6}
                 </p>
             </div>
             <div className="px-4 pt-2 pb-2 flex justify-center">
