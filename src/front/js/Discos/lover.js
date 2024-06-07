@@ -28,66 +28,98 @@ export const Lover = () => {
             <CardSong
                 title="3. Lover"
                 buttonLink="/pista1"
+                style={{ backgroundImage: 'url("https://i.pinimg.com/736x/3e/0e/60/3e0e6046dcdf0431f880c1a5143c0a59.jpg")', backgroundSize: 'cover', backgroundPosition: 'center', height: '10vh' }}
+
             />
             <CardSong
                 title="4. The Man"
                 buttonLink="/pista1"
+                style={{ backgroundImage: 'url("https://i.pinimg.com/736x/3e/0e/60/3e0e6046dcdf0431f880c1a5143c0a59.jpg")', backgroundSize: 'cover', backgroundPosition: 'center', height: '10vh' }}
+
             />
             <CardSong
                 title="5. The Archer"
                 buttonLink="/pista1"
+                style={{ backgroundImage: 'url("https://i.pinimg.com/736x/3e/0e/60/3e0e6046dcdf0431f880c1a5143c0a59.jpg")', backgroundSize: 'cover', backgroundPosition: 'center', height: '10vh' }}
+
             />
             <CardSong
                 title="6. I Think He Knows"
                 buttonLink="/pista1"
+                style={{ backgroundImage: 'url("https://i.pinimg.com/736x/3e/0e/60/3e0e6046dcdf0431f880c1a5143c0a59.jpg")', backgroundSize: 'cover', backgroundPosition: 'center', height: '10vh' }}
+
             />
             <CardSong
                 title="7. Miss Americana & The Heartbreak Prince"
                 buttonLink="/pista1"
+                style={{ backgroundImage: 'url("https://i.pinimg.com/736x/3e/0e/60/3e0e6046dcdf0431f880c1a5143c0a59.jpg")', backgroundSize: 'cover', backgroundPosition: 'center', height: '10vh' }}
+
             />
             <CardSong
                 title="8. Paper Rings"
                 buttonLink="/pista1"
+                style={{ backgroundImage: 'url("https://i.pinimg.com/736x/3e/0e/60/3e0e6046dcdf0431f880c1a5143c0a59.jpg")', backgroundSize: 'cover', backgroundPosition: 'center', height: '10vh' }}
+
             />
             <CardSong
                 title="9. Cornelia Street"
                 buttonLink="/pista1"
+                style={{ backgroundImage: 'url("https://i.pinimg.com/736x/3e/0e/60/3e0e6046dcdf0431f880c1a5143c0a59.jpg")', backgroundSize: 'cover', backgroundPosition: 'center', height: '10vh' }}
+
             />
             <CardSong
                 title="10. Death By A Thousand Cuts"
                 buttonLink="/pista1"
+                style={{ backgroundImage: 'url("https://i.pinimg.com/736x/3e/0e/60/3e0e6046dcdf0431f880c1a5143c0a59.jpg")', backgroundSize: 'cover', backgroundPosition: 'center', height: '10vh' }}
+
             />
             <CardSong
                 title="11. London Boy"
                 buttonLink="/pista1"
+                style={{ backgroundImage: 'url("https://i.pinimg.com/736x/3e/0e/60/3e0e6046dcdf0431f880c1a5143c0a59.jpg")', backgroundSize: 'cover', backgroundPosition: 'center', height: '10vh' }}
+
             />
             <CardSong
                 title="12. Soon You’ll Get Better"
                 buttonLink="/pista1"
+                style={{ backgroundImage: 'url("https://i.pinimg.com/736x/3e/0e/60/3e0e6046dcdf0431f880c1a5143c0a59.jpg")', backgroundSize: 'cover', backgroundPosition: 'center', height: '10vh' }}
+
             />
             <CardSong
                 title="13. False God"
                 buttonLink="/pista1"
+                style={{ backgroundImage: 'url("https://i.pinimg.com/736x/3e/0e/60/3e0e6046dcdf0431f880c1a5143c0a59.jpg")', backgroundSize: 'cover', backgroundPosition: 'center', height: '10vh' }}
+
             />
             <CardSong
                 title="14. You Need To Calm Down"
                 buttonLink="/pista1"
+                style={{ backgroundImage: 'url("https://i.pinimg.com/736x/3e/0e/60/3e0e6046dcdf0431f880c1a5143c0a59.jpg")', backgroundSize: 'cover', backgroundPosition: 'center', height: '10vh' }}
+
             />
             <CardSong
                 title="15. Afterglow"
                 buttonLink="/pista1"
+                style={{ backgroundImage: 'url("https://i.pinimg.com/736x/3e/0e/60/3e0e6046dcdf0431f880c1a5143c0a59.jpg")', backgroundSize: 'cover', backgroundPosition: 'center', height: '10vh' }}
+
             />
             <CardSong
                 title="16. ME!"
                 buttonLink="/pista1"
+                style={{ backgroundImage: 'url("https://i.pinimg.com/736x/3e/0e/60/3e0e6046dcdf0431f880c1a5143c0a59.jpg")', backgroundSize: 'cover', backgroundPosition: 'center', height: '10vh' }}
+
             />
             <CardSong
                 title="17. It's Nice To Have A Friend"
                 buttonLink="/pista1"
+                style={{ backgroundImage: 'url("https://i.pinimg.com/736x/3e/0e/60/3e0e6046dcdf0431f880c1a5143c0a59.jpg")', backgroundSize: 'cover', backgroundPosition: 'center', height: '10vh' }}
+
             />
             <CardSong
                 title="18. Daylight"
                 buttonLink="/pista1"
+                style={{ backgroundImage: 'url("https://i.pinimg.com/736x/3e/0e/60/3e0e6046dcdf0431f880c1a5143c0a59.jpg")', backgroundSize: 'cover', backgroundPosition: 'center', height: '10vh' }}
+
             />
 
 
