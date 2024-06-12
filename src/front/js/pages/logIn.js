@@ -25,9 +25,9 @@ export const LogIn = () => {
     return (
         <>
            
-            <div id='login-body' className="flex flex-col justify-center mt-0 items-center" style={{backgroundImage: 'url("https://wallpapercave.com/wp/wp13615545.jpg")', backgroundSize: 'cover', backgroundPosition: 'center', height: '100vh'}} >
+            <div id='login-body' className="flex flex-col justify-center mt-0 items-center mt-5 "  >
 
-                <div id="login" className="border-4 rounded border-gray-200 drop-shadow-md p-5 ">
+                <div id="login" className="border-4 rounded border-gray-200 drop-shadow-md p-5 bg-neutral-100 ">
 
 
                     <form className="border-b border-pink-900 flex flex-col justify-center items-center text-wrap" id="loginform">

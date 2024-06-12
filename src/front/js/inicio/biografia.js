@@ -9,7 +9,7 @@ import { CgWebsite } from "react-icons/cg";
 
 
 
-export const Private = () => {
+export const Biografia = () => {
     const { actions } = useContext(Context);
 
 

@@ -4,21 +4,21 @@ import ScrollToTop from "./component/scrollToTop";
 import { BackendURL } from "./component/backendURL";
 
 import { Home } from "./pages/home";
-import { Discografia } from "./inicio/discografia";
-import { Videos } from "./inicio/videos";
-
+import { Hero } from "./pages/Hero";
 
 import injectContext from "./store/appContext";
-
-
 
 import { Navbar } from "./component/navbar";
 import { Footer } from "./component/footer";
 import { LogIn } from "./pages/logIn";
-import { Hero } from "./pages/Hero";
 import { SignUp } from "./pages/signUp";
-import { Private } from "./inicio/private";
+import { Profile } from "./pages/profile";
 
+
+
+import { Biografia } from "./inicio/biografia";
+import { Discografia } from "./inicio/discografia";
+import { Videos } from "./inicio/videos";
 
 import { Lover } from "./Discos/lover";
 
@@ -47,9 +47,12 @@ const Layout = () => {
 
                         <Route element={<Discografia />} path="/discografia" />
                         <Route element={<LogIn />} path="/login" />
-                        <Route element={<Private />} path="/private" />
-                        <Route element={<Hero />} path="/hero" />
                         <Route element={<SignUp />} path="/signup" />
+                        <Route element={<Profile />} path="/profile" />
+
+                        <Route element={<Biografia />} path="/biografia" />
+                        <Route element={<Hero />} path="/hero" />
+                        
                        
                         <Route element={<h1>Not found!</h1>} />
 

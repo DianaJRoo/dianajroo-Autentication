@@ -51,7 +51,7 @@ export const SignUp = () => {
 
   return (<>
   
-    <div id='signup-body' className='flex flex-col justify-center mt-0 items-center' style={{backgroundImage: 'url("https://wallpapercave.com/wp/wp13615545.jpg")', backgroundSize: 'cover', backgroundPosition: 'center', height: '100vh'}} >
+    <div id='signup-body' className='flex flex-col justify-center mt-0 items-center bg-neutral-100'  >
       
       <form onSubmit={handleSubmit} className="flex flex-col items-center p-4 mx-auto max-w-screen-sm h-screen ">
        
@@ -64,7 +64,7 @@ export const SignUp = () => {
           </p>
 
           <div className="sm:col-span-3 mt-2">
-              <label htmlFor="email" className="block text-sm font-medium leading-6 text-gray-900">
+              <label htmlFor="nombre" className="block text-sm font-medium leading-6 text-gray-900">
                 Nombre
              </label>
               <div className="sm:col-span-3">
@@ -76,7 +76,7 @@ export const SignUp = () => {
                   required
                   onChange={handleChange}
                   value={userInfo.first_name}
-                  className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                  className="shadow-md block w-full rounded-md border-0 py-1.5 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
               </div>
             </div>
@@ -94,7 +94,7 @@ export const SignUp = () => {
                   required
                   onChange={handleChange}
                   value={userInfo.last_name}
-                  className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                  className="shadow-md block w-full rounded-md border-0 py-1.5 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
               </div>
             </div>
@@ -112,7 +112,7 @@ export const SignUp = () => {
                   required
                   onChange={handleChange}
                   value={userInfo.email}
-                  className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                  className="shadow-md block w-full rounded-md border-0 py-1.5 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
               </div>
             </div>
@@ -132,7 +132,7 @@ export const SignUp = () => {
                   onChange={handleChange}
                   required
                   value={userInfo.password}
-                  className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                  className="shadow-md block w-full rounded-md border-0 py-1.5 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
               </div>
 
